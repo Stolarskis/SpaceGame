@@ -95,3 +95,38 @@
       that we find through playing the game or having some of our
       friends play the game.
     - Make sure all ship + station art is of the same quality.
+
+#### Notes about the requirements of different game objects.
+
+###Player
+  ##Player Movement
+    -The player shall be capable of movement. The movement will be limited to a rotation on an xy plane
+    and a forward vector that is initiated from the back of the players ship. 
+    -The player shall have the ability to equip different styles of engines to ship allowing for varying speeds
+    of both the xy rotation and of the size of the forward vector. 
+    -The player shall be capable of being slowed by other objects in the game. 
+  ##Player Health
+    -The player shall have a set amount of health. That health will take the form of shields, armor, and hull hit points. 
+    -The player shall have varying amounts of these based off of the amount of defensive items located in the ships build. 
+  ##Player Wealth
+    -The player shall be capable of getting, spending, and saving money through out the game. 
+  ##Player Interactions
+    -The player shall be capable of interacting with objects in the world.
+    -The player shall be capable of the following
+      -Shooting other ships
+      -Buying upgrades in the form of items
+      -Changing the build of the ship
+      -Docking with structures in order to heal.
+  ###Player
+
+###Ships
+  ##Ship Types
+    -A ship shall have a ship type
+    -A ship will belong to a certain faction
+  ##Ship Health
+    -A ship shall have base hull, armor, and shield stats.
+    -A ship shall have a base amount of spots for items to fit in.
+  ##Ship Speed
+    -A ship shall have a base speed
+###Ships
+
